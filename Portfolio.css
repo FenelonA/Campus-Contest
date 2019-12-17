@@ -1,0 +1,11 @@
+header {
+    height: 90px;
+    width: 100%;
+    padding: 20px 0;
+    background: #353535;
+}
+
+#Miniature {
+    text-align: center;
+    height: 5em;
+}
