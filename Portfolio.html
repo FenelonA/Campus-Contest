@@ -2,7 +2,10 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="Portfolio.css" />
-    <link href="https://fonts.googleapis.com/css?family=Courier+Prime:700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inria+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,19 +15,22 @@
 <body>
     <header>
         <div>
-            <a href="Formulaire.html"><img class="Contact" src="https://media2.giphy.com/media/nbX0ijnZwU33wY6Wwo/giphy.gif?cid=790b7611a65bdc677dd47ae268934f77c184b19aa2f8abea&rid=giphy.gif" alt="Contact"></a>
-        </div>
-        <div>
+            <div>
+                <img class="g1" src= "https://media.giphy.com/media/ftAyb0CG1FNAIZt4SO/giphy.gif" alt="">
+            </div>
+            <div>
+                <img class="g2" src= "https://media.giphy.com/media/ftAyb0CG1FNAIZt4SO/giphy.gif" alt="">
+            </div>  
             <div id="bandeau">
-                <img class="Moi" src="Images/AFv2.jpg" alt="">
-            </div>        
+                <img class="Moi" src="Images/AFv2.jpg" alt=""> 
+            </div>
+        </div>   
         </div>
     </header>
     <div>
-        
     </div>
     <div class="row">
-        <article class="Art1">
+        <article>
             <p>
                 <h1 class="titre">Bonjour, moi c'est Alexis !</h1>
                 <h2 class="presentation">Je suis actuellement en reconversion professionnelle au sein de <a href="https://www.campus.academy/">Campus Academy</a> en 1ère année
@@ -34,14 +40,83 @@
         </article>
     </div>
     <div class="container-fluid">            
-        <div class="container">
+            <div class="row" id="menu">
+                <article class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                <a class="Bouton" href="#parcours"><img class="parcours" src="Images/MonParcours.png" width="50%" alt="MonParcours"></a>
+                </article>
+                <article class="col-xs-12 col-sm-12 col-md-3 col-lg-3">                  
+                <img class="projets" src="Images/MesProjets.png" width="50%" alt="MesProjets">
+                </article>
+                <article class="col-xs-12 col-sm-12 col-md-3 col-lg-3">                  
+                <img class="temoins" src="Images/Temoignages.png" width="50%" alt="MesTemoignages">
+                </article>
+                <article class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                <img class="contact" src="Images/Contact.png" width="50%" alt="Contact">
+                </article>                   
+            </div>                    
+    </div>
+    <balise id="parcours"><div class="container-fluid1"></balise>
+            
             <div class="row">
-                    <img class="parcours" src="Images/MonParcours.png" style="text-align: left;" alt="MonParcours">                     
-                    <img class="projets" src="Images/MesProjets.png" style="text-align: center;" alt="MesProjets">                   
-                    <img class="temoins" src="Images/Temoignages.png" style="text-align: right;" alt="MesTemoignages">                    
-                </div>                    
-            </div>
-        </div>   
+                <article class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="Art1">
+                        <h2>ETUDES</h2>                        
+                    <section>
+                        <h4>BACHELOR INFORMATIQUE</h4>
+                        <P>[2019 - En Cours] -> Campus Academy 44700 ORVAULT</P>
+                        <h4>LICENCE GESTION ADMINISTRATIVE ET COMMERCIALE</h4>
+                        <P>[2013 - 2014] -> Irta Sup'Alternance 44000 NANTES</P>
+                        <h4>BTS BANQUE OPTION MARCHE DES PARTICULIERS</h4>
+                        <P>[2009 - 2011] -> CFPB 44000 Nantes</P>
+                        <h4>BAC STG OPTION COMPTABILITE ET FINANCES DES ENTREPRISES</h4>
+                        <p>[2007 - 2009] -> Guy Moquet 44410 Châteaubriant</p>
+                        <h4>BEP COMPTABILITE ET SECRETARIAT</h4>
+                        <p>[2005 - 2007] -> Lycée Etienne Lenoir 44410 Châteaubriant</p>           
+                    </section>
+                </article>
+
+                <article class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="Art2">
+                        <h2>EXPERIENCES</h2>
+                    <section>
+                        <h4>COMPTABLE GENERAL [Janv. 2018 – Juil. 2019]</h4>
+                        <p>Groupe ETPO – 44000 NANTES</p>
+                        <ul>
+                            <li>Gestion exclusive de 3 des sociétés du Groupe</li>
+                            <li>Calcul et déclaration de TVA (Réel Normal)</li>
+                            <li>Contrôle des charges sociales (Salarié)</li>
+                            <li>Réalisation des arrêtés mensuels / semestriels</li>
+                            <li>Consolidation de SEP</li>
+                            <li>Gestion de la TVS sur un parc de véhicule conséquent (80 véhicules)</li>
+                            <li>Reporting des résultats et frais généraux pour analyse par la direction</li>
+                            <li>Gestion des Notes de Frais des salariés</li>
+                            <li>Mise en place de plusieurs procédures de traitement des tâches</li>
+                        </ul>
+                        <b></b>
+                        <h4>COLLABORATEUR COMPTABLE [Sept. 2014 – Déc. 2017]</h4>
+                        <p>ECL Direct – 44800 SAINT HERBLAIN</p>
+                        <ul>
+                            <li>Révision des comptes annuels</li>
+                            <li>Etablissement & présentation des états financiers</li>
+                            <li>Réalisation de situations intermédiaires</li>
+                            <li>Calcul et déclaration de TVA (Réel Normal / CA12)</li>
+                            <li>Contrôle et déclaration des charges sociales (Salarié / TNS)</li>
+                            <li>Conseil en gestion d’entreprise - Optimisation Fiscale</li>
+                            <li>Portefeuille 60 clients – Tous secteurs d’activités</li>
+                        </ul>
+                        <h4>ASSISTANT COLLABORATEUR [Mars 2013 - Fév. 2014]</h4>
+                        <p>PF Expertise Conseil 44470 THOUARE SUR LOIRE</p>
+                        <ul>
+                    	    <li>Tenue de la Comptabilité (90 % du temps)</li>
+                            <li>Calcul et déclaration de TVA (Inclus dans les 90 % de tenue)</li>
+                            <li>Contrôle des charges sociales</li>
+                            <li>Révision annuelle des comptes (10 % du temps sans aller jusqu’au Bilan)</li>
+                        </ul>
+                    </section>
+                </article>
+                <article class="reseaux">
+                    <img src="Images\logo-linkedin.jpg" width="100em" height="70em" alt="">
+                    <a href="Documents\CV - Administrateur S&R - Stage.pdf"><img src="https://media.giphy.com/media/U4FkC2VqpeNRHjTDQ5/giphy.gif" width="50em" height="30em" alt=""></a>
+                </article> 
+        </div>
     </div>
 </body>
 </html>

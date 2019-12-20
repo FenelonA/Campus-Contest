@@ -1,23 +1,65 @@
-body {
-    background: url(https://media.giphy.com/media/ftAyb0CG1FNAIZt4SO/giphy.gif) no-repeat;
-    background-position: left;
-    background-position: right;
-    margin-top: 0em;
-}
-
 header {
-    height: 23em;
+    height: 27em;
 }
 
-.Contact {
+.g1 {
+    width: 25em;
+    float: left;
+    margin-top: 15em;
+}
+
+@media all and (max-width : 400px) {
+    .g1 {
+        width: 5em;
+        float: left;
+        margin-top: 15em;
+    }
+}
+
+@media all and (min-width : 900px) {
+    .g1 {
+        width: 15em;
+        float: left;
+        margin-top: 15em;
+    }
+}
+
+@media all and (min-width : 1000px) {
+    .g1 {
+        width: 25em;
+        float: left;
+        margin-top: 15em;
+    }
+}
+
+.g2 {
+    width: 25em;
     float: right;
-    position: relative;
-    z-index: 1;
-    width: 5%;
-    margin-right: 5%;
-    margin-left: -5%;
-    margin-top: 2.5%;
-    border-radius: 1em;
+    margin-top: 15em;
+}
+
+@media all and (max-width : 400px) {
+    .g2 {
+        width: 5em;
+        float: right;
+        margin-top: 15em;
+    }
+}
+
+@media all and (min-width : 900px) {
+    .g2 {
+        width: 15em;
+        float: right;
+        margin-top: 15em;
+    }
+}
+
+@media all and (min-width : 1000px) {
+    .g2 {
+        width: 25em;
+        float: right;
+        margin-top: 15em;
+    }
 }
 
 @media all and (max-width : 400px) {
@@ -36,24 +78,23 @@ header {
     height: 150px;
     width: 100%;
     padding: 20px 0;
-    background: powderblue;
+    background: linear-gradient(rgba(28,31,36,0.93), white);
     text-align: center;
 }
 
 @media all and (max-width : 400px) {
     .Moi {
-        width: 70%;
+        width: 50%;
         margin-top: 15%;
     }
 }
-.Art1 {
-    
-}
+
 .titre {
+    font-weight: bolder;
     text-align: center;
     margin-left: 15%;
     margin-right: 15%;
-    font-family: 'Courier Prime', monospace;
+    font-family: 'Inria Serif', serif;
     line-height: 1.5;
     color: #353535;
     font-size: 2em;
@@ -64,7 +105,7 @@ header {
     text-align: justify;
     margin-left: 15%;
     margin-right: 15%;
-    font-family: 'Courier Prime', monospace;
+    font-family: 'Inria Serif', serif;
     line-height: 1.5;
     color: #353535;
 
@@ -81,7 +122,7 @@ header {
         text-align: center;
         margin-left: 15%;
         margin-right: 15%;
-        font-family: 'Courier Prime', monospace;
+        font-family: 'Inria Serif', serif;
         line-height: 1.5;
         color: #353535;
         font-size: 1.2em;
@@ -90,48 +131,82 @@ header {
         text-align: justify;
         margin-left: 7%;
         margin-right: 7%;
-        font-family: 'Courier Prime', monospace;
+        font-family: 'Inria Serif', serif;
         line-height: 1.5;
         color: #353535;
         font-size: 0.8em;    
     }
 }
-.row{
+
+#menu {
+    margin-top: 2em;
     text-align: center;
 }
 
-.parcours {
-    margin-top: 5%;
-    margin-left: 3%;
-    width: 15%;
+.container-fluid1 {
+    margin-top: 5em;
 }
 
-.projets {
-    margin-top: 5%;
-    margin-left: 10%;
-    width: 15%;
+h2 {
+    text-align: center;
+    padding-bottom: 2em;
 }
 
-.temoins {
-    margin-top: 5%;
-    margin-left: 10%;
-    width: 15%;
+h4 {
+    padding-top: 1em;
+    font-weight: bolder;
+}
+
+#Art1 {
+    color: lightgray;
+    padding-top: 5em;
+    height: 75em;
+    background-color: rgba(28,31,36,0.93);
+    line-height: 2;
+    font-family: 'Inria Serif', serif;
+}
+
+#Art2 {
+    color: lightgray;
+    padding-top: 5em;
+    height: 75em;
+    background-color: black;
+    line-height: 2;
+    font-family: 'Inria Serif', serif;
+}
+
+section {
+    text-align: left;
+    margin-left: 8em;
 }
 
 @media all and (max-width : 400px) {
-    .parcours {
-        margin-top: 5%;
-        margin-left: auto;
-        width: 60%;
+    #Art1 {
+        color: lightgray;
+        padding-top: 5em;
+        height: auto;
+        background-color: rgba(28,31,36,0.93);
+        line-height: 1.5;
+        font-family: 'Inria Serif', serif;
     }
-    .projets {
-        margin-top: 5%;
-        margin-left: auto;
-        width: 60%;
+    #Art2 {
+        color: lightgray;
+        padding-top: 5em;
+        height: auto;
+        background-color: black;
+        line-height: 1.5;
+        font-family: 'Inria Serif', serif;
     }
-    .temoins {
-        margin-top: 5%;
-        margin-left: auto;
-        width: 60%;
+    section {
+        text-align: left;
+        margin-left: 2%;
     }
 }
+
+.reseaux {
+    width: 25em;
+    text-align: left;
+    padding-top: 25em;
+}
+
+
