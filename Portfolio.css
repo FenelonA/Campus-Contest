@@ -1,0 +1,212 @@
+header {
+    height: 27em;
+}
+
+.g1 {
+    width: 25em;
+    float: left;
+    margin-top: 15em;
+}
+
+@media all and (max-width : 400px) {
+    .g1 {
+        width: 5em;
+        float: left;
+        margin-top: 15em;
+    }
+}
+
+@media all and (min-width : 900px) {
+    .g1 {
+        width: 15em;
+        float: left;
+        margin-top: 15em;
+    }
+}
+
+@media all and (min-width : 1000px) {
+    .g1 {
+        width: 25em;
+        float: left;
+        margin-top: 15em;
+    }
+}
+
+.g2 {
+    width: 25em;
+    float: right;
+    margin-top: 15em;
+}
+
+@media all and (max-width : 400px) {
+    .g2 {
+        width: 5em;
+        float: right;
+        margin-top: 15em;
+    }
+}
+
+@media all and (min-width : 900px) {
+    .g2 {
+        width: 15em;
+        float: right;
+        margin-top: 15em;
+    }
+}
+
+@media all and (min-width : 1000px) {
+    .g2 {
+        width: 25em;
+        float: right;
+        margin-top: 15em;
+    }
+}
+
+@media all and (max-width : 400px) {
+    .Contact {
+        float: right;
+        position: relative;
+        z-index: 1;
+        width: 20%;
+        margin-left: -30%;
+        border-radius: 1em;
+    }
+}
+#bandeau {
+    position: relative;
+    z-index: 0;
+    height: 150px;
+    width: 100%;
+    padding: 20px 0;
+    background: linear-gradient(rgba(28,31,36,0.93), white);
+    text-align: center;
+}
+
+@media all and (max-width : 400px) {
+    .Moi {
+        width: 50%;
+        margin-top: 15%;
+    }
+}
+
+.titre {
+    font-weight: bolder;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: 'Inria Serif', serif;
+    line-height: 1.5;
+    color: #353535;
+    font-size: 2em;
+
+}
+
+.presentation {
+    text-align: justify;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: 'Inria Serif', serif;
+    line-height: 1.5;
+    color: #353535;
+
+}
+
+@media all and (max-width : 400px) {
+    header {
+        height: 22em;
+}
+}
+
+@media all and (max-width : 400px) {
+    .titre {
+        text-align: center;
+        margin-left: 15%;
+        margin-right: 15%;
+        font-family: 'Inria Serif', serif;
+        line-height: 1.5;
+        color: #353535;
+        font-size: 1.2em;
+    }
+    .presentation {
+        text-align: justify;
+        margin-left: 7%;
+        margin-right: 7%;
+        font-family: 'Inria Serif', serif;
+        line-height: 1.5;
+        color: #353535;
+        font-size: 0.8em;    
+    }
+}
+
+#menu {
+    margin-top: 2em;
+    text-align: center;
+}
+
+.container-fluid1 {
+    margin-top: 5em;
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+h4 {
+    padding-top: 1em;
+    font-weight: bolder;
+}
+
+#Art1 {
+    color: lightgray;
+    padding-top: 5em;
+    height: 75em;
+    background-color: rgba(28,31,36,0.93);
+    line-height: 2;
+    font-family: 'Inria Serif', serif;
+}
+
+#Art2 {
+    color: lightgray;
+    padding-top: 5em;
+    height: 75em;
+    background-color: black;
+    line-height: 2;
+    font-family: 'Inria Serif', serif;
+}
+
+section {
+    text-align: left;
+    margin-left: 8em;
+}
+
+@media all and (max-width : 400px) {
+    #Art1 {
+        color: lightgray;
+        padding-top: 5em;
+        height: auto;
+        background-color: rgba(28,31,36,0.93);
+        line-height: 1.5;
+        font-family: 'Inria Serif', serif;
+    }
+    #Art2 {
+        color: lightgray;
+        padding-top: 5em;
+        height: auto;
+        background-color: black;
+        line-height: 1.5;
+        font-family: 'Inria Serif', serif;
+    }
+    section {
+        text-align: left;
+        margin-left: 2%;
+    }
+}
+
+.reseaux {
+    width: 25em;
+    text-align: left;
+    padding-top: 25em;
+}
+
+
